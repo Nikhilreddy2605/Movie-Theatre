@@ -73,3 +73,15 @@ a{
     justify-content: space-between;
     align-items: center;
 }
+.entrance{
+    width: 200px;
+    margin-top: -40px;
+}
+#entrance2{
+    width: 250px;
+    margin-left: -1000px;
+    margin-top: -200px;
+}
+#entrance3{
+    margin-left: 0px;   
+}
