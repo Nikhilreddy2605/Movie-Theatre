@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+body{
+    background-color: black;
+}
+.logo{
+    width: 250px;
+    height: auto;
+    color: yellow;
+    display: flex;
+    font-size: 30px;
+}
+.navbar{
+    
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:32px 60px 32px 60px;
+
+}
+.navbar li{
+    display: inline;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    margin-left: 20px;
+    margin-top: 0px;
+    display: flex;
+}
+ul li a:hover{
+    color:yellow;
+}
+.search{
+    display: flex;
+    align-items: center;
+    margin-left: 630px;
+    margin-top: -30px;
+
+}
+.srch{
+    border-color: antiquewhite;
+    background-color: transparent;
+    display: flex;
+    border-radius: 5px;
+    width: 150px;
+    display: flex;
+    color: antiquewhite;
+    gap: -1rem;
+    border: 1px solid #fff;
+    padding: 12px;
+}
+.btn{
+    margin-left:6px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    background-color: yellow;
+    padding: 12px;
+    cursor: pointer;
+    border-width: 0;
+
+}
+#b{
+    font-size: 40px;
+    color: antiquewhite;
+    margin: 80px 0 20px;
+}
+.image{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.img{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    margin-left: 350px;
+    margin-top: -300px;
+    cursor: pointer;
+}
+.imag{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    margin-left: 650px;
+    margin-top: -300px;
+    cursor: pointer;
+}
+.i{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    margin-left: 1250px;
+    margin-top: -300px;
+    cursor: pointer;
+}
+.Image{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    margin-left: 1880px;
+    margin-top: -300px;
+    cursor: pointer;
+}
+.image h2{
+    font-size: 30px;
+    color: #fff;
+    margin-top: 320px;
+    margin-left: -150px;
+}
+.img h2{
+    font-size: 30px;
+    color: #fff;
+    margin-top: 320px;
+    margin-left: -150px;
+}
+.imag h2{
+    font-size: 30px;
+    color: #fff;
+    margin-top: 320px;
+    margin-left: -280px;
+    display: flex;
+
+}
+.i h2{
+    font-size: 30px;
+    color: #fff;
+    margin-top: 320px;
+    margin-left: -270px;
+}
+.Image h2{
+    font-size: 30px;
+    color: #fff;
+    margin-top: 320px;
+    margin-left: -150px;
+}
+.movies.image:hover img{
+transform: scale(1.2);
+}
+#n{
+    text-align: center;
+    margin-top: 350px;
+    line-height: 21px;
+    font-size: 17px;
+    margin-left: -220px;
+    color: #fff;
+}
+.movie-img{
+    width: 100%;
+    height: 220px
+}
+.poi{
+    box-shadow: 0 0 10px #fac031(500, 500, 500, 0.2);
+    width: 17%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 2%;
+    justify-content: space-between;
+}
+.pranay p{
+    font-size: 17px;
+    margin-left: -170px;
+    margin-top: 349px;
+    color: #fff;
+    box-shadow: 0 0 10px #fac031(500, 500, 500, 0.2);
+    text-decoration: none;
+}
+.z{
+    margin-top: 440px;
+    width: 100px;
+    height: auto;
+    margin-left: -180px;
+    background-color: #fac031;
+    height: 30px;
+    border-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px; 
+    cursor: pointer; 
+}
+.y{
+    margin-top: 440px;
+    width: 100px;
+    height: auto;
+    margin-left: -210px;
+    background-color: #fac031;
+    height: 30px;
+    border-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px; 
+}
+.n{
+    margin-top: 440px;
+    width: 100px;
+    height: auto;
+    margin-left: -140px;
+    background-color: #fac031;
+    height: 30px;
+    border-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    cursor: pointer; 
+}
+.nikhil p{
+    font-size: 17px;
+    margin-left: -170px;
+    margin-top: 349px;
+    color: #fff;
+    box-shadow: 0 0 10px #fac031(500, 500, 500, 0.2);
+    text-decoration: none;
+    display: flex;  
+}
+.kalki p{
+    font-size: 20px;
+    margin-left: -330px;
+    margin-top: 349px;
+    color: #fff;
+    box-shadow: 0 0 10px #fac031(500, 500, 500, 0.2);
+    text-decoration: none;
+    display: flex;
+}
+.t{
+        margin-top: 440px;
+        width: 100px;
+        height: auto;
+        margin-left: -140px;
+        background-color: #fac031;
+        height: 30px;
+        border-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        cursor: pointer; 
+}
+.gamechanger p{
+    font-size: 17px;
+    margin-left: -200px;
+    margin-top: 400px;
+    color: #fff;
+    box-shadow: 0 0 10px #f5f4f2(500, 500, 500, 0.2);
+    text-decoration: none;
+    display: flex;
+}
+.book-btn{
+        padding: 12px;
+        background-color: #fac031;
+        border-radius: 6px;
+        cursor: pointer;
+        border-width: 0;
+}
+
+.reviews{
+    color: #fff;
+    padding: 0 60px 0 60px;
+}
+#c{
+    margin-top: 150px;
+}
+#g{
+    font-size: 30px;  
+    margin-left: 150px;
+}
+#s{
+    font-size: 30px;  
+    margin-left: 150px;
+}
+#l{
+    margin-top: 150px;
+}
+#u{
+    font-size: 30px;
+    margin-left: 150px;
+}
+#r{
+    margin-top: 130px;
+}
+#w{
+    font-size: 30px;
+    margin-left: 150px;
+}
+#q{
+    margin-top: 130px;
+}
+#v{
+    font-size: 22px;
+    margin-left: 150px;
+}
+#d{
+    margin-top: 50px;
+}
+#k{
+    color: #fff;
+    font-size: 40px;
+    margin-top: 100px;
+    padding: 0 0 0 60px;
+}
+.flex{
+    display: flex;
+}
+.footermain .footer_tag{
+    font-size: 20px;
+    color: black;
+    margin-top: 0px;
+    cursor: pointer;
+}
+.footermain .foote_tag{
+    font-size: 20px;
+    color: black;
+    margin-top: 0px;
+    margin-left: 150px;
+    cursor: pointer;
+}
+.footer-tag{
+    font-size: 20px;
+    color: black;
+    margin-top: 0px;
+    margin-left: 150px;
+    cursor: pointer;
+}
+.footetag{
+    font-size: 20px;
+    color: #000000;
+    margin-top: 0px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+.foottag{
+    font-size: 20px;
+    color: black;
+    margin-top: 0px;
+    margin-left: 150px;
+    cursor: pointer;
+}
+.flexing{
+    display: flex;
+}
+.footermain{
+    background-color: yellow;
+    color: black;
+}
+.dflex{
+    display: flex;
+}
+.pflex{
+    display: flex;
+    align-items: center;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+.oflex{
+    display: flex;
+}
+.kflex{
+    display: flex;
+}
+.gflex{
+    display: flex;
+}
+.main{
+    font-family: "Roboto";
+}
+.gamechanger h2{
+    width: 50px;
+    height: auto;
+    margin-left: -250px;
+}
+.movies .poi .image:hover{
+    width: 330px;
+    height: 330px;
+    position: relative;
+}
+.pranay .img img:hover{
+    width: 330px;
+    height: 330px;
+    position: relative;
+}
+.nikhil .imag img:hover{
+    width: 530px;
+    height: 530px;
+    position: relative;
+}
+.kalki .i img:hover{
+    width: 530px;
+    height: 530px;
+    position: relative;
+    transition-duration: 2s ease-in-out;
+}
+.gamechanger .Image img:hover{
+    width: 330px;
+    height: 330px;
+    position: relative;
+}
+.movies{
+    width: 100vw;
+    color: white;
+    padding: 0 60px 0 60px ;
+}
+.movieslist-container{
+    display: flex;
+
+}
+.about-movie{
+    margin: 10px 0 10px 0;
+}
+.menu-list-container{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    list-style-type: none;
+    margin-top: -20px;
+}
+.menu-item{
+    margin: 0 22px 0 0;
+}
+#logop{
+    margin-top: -55px;
+    margin-left: -20px;
+}
+.logon{
+    display: flex;
+}

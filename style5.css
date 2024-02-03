@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.LOGO{
+    color: yellow;
+    font-size: 30px;
+}
+.dev img{
+    width: 700px;
+    height: 700px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.dev{
+    display: flex;
+}
+#Q{
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 45px;
+    color: antiquewhite;
+}
+#u{
+    margin-top: 100px;
+    margin-left:-110px;
+    font-size: 30px;
+    color: antiquewhite;
+}
+.BTN{
+    color: antiquewhite;
+    margin-top: 410px;
+    width: 100px;
+    height: 50px;
+    background-color: crimson;
+    margin-left: -1150px;
+    border-radius: 1rem;
+    /* border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border */
+    cursor: pointer;
+}
+.BTN:hover{
+    color: black;
+}
